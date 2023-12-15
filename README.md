@@ -11,3 +11,7 @@ After you have completed the above steps you can check out this [page](https://r
 
 ### Connect to the device
 The first step in connecting to the revpi unit is to connect it to a local network. In most cases this can be done by simply connecting it via ethernet to the local router. However, when connecting via institution networks you may need to set up a permitted connection for the device. This is usually done by pairing the mac address to a specific IP, which also has the benefit of a static IP address which will be convenient for ssh. For the revpi connect there are two mac addresses available (A and B), they are printed on the units chassi below the ethernet ports and are slightly different. For more information on the difference follow [this link](https://revolutionpi.com/tutorials/ethernet-ports-compact). 
+
+### Cross-compile
+todo; tl;dr:
+```env GOOS=linux GOARCH=arm go build -o <executable name>```
